@@ -6,7 +6,7 @@ public class CheckPrimeInARange {
 
     public static void main(String args[])
     {
-        int s1, s2, s3, flag = 0, i, j;
+        int s1, flag = 0, i, j;
         Scanner s = new Scanner(System.in);
         System.out.println ("Enter a positive integer:");
         s1 = s.nextInt();
