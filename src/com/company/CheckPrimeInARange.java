@@ -10,8 +10,8 @@ public class CheckPrimeInARange {
         Scanner s = new Scanner(System.in);
         System.out.println ("Enter a number :");
         s1 = s.nextInt();
-        System.out.printf("The number you just keyed in is "+s1);
-        System.out.println ("The prime numbers between 1 and "+s1+"are :");
+        System.out.println("The number you just keyed in is "+s1+".");
+        System.out.println ("The prime numbers between 1 and "+s1+" are :");
         for(i = 1; i <= s1; i++)
         {
             for( j = 2; j < i; j++)
