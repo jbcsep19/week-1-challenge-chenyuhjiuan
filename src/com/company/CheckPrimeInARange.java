@@ -11,10 +11,10 @@ public class CheckPrimeInARange {
         System.out.println ("Enter a positive integer:");
         s1 = s.nextInt();
         System.out.println("The number you just keyed in is "+s1+".");
-        System.out.println ("The prime numbers between 1 and "+s1+" are :");
+
         for(i = 1; i <= s1; i++)
         {
-            for( j = 2; j < i; j++)
+            for( j = 2; j < i/2; j++)
             {
                 if(i % j == 0)
                 {
@@ -28,8 +28,15 @@ public class CheckPrimeInARange {
             }
             if(flag == 1)
             {
-                System.out.println(i);
+                System.out.println("These are prime numbers: "+i);
+            }
+            if(flag == 0)
+            {
+                System.out.println("These are not prime numbers: "+i);
             }
         }
+
+
+        }
     }
-}
+
